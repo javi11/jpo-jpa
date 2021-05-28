@@ -1,0 +1,42 @@
+{
+  "name": "jpo-jpa",
+  "version": "1.0.0",
+  "description": "Json pointer to json path",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && tap",
+    "lint": "eslint .",
+    "postinstall": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javi11/jpo-jpa.git"
+  },
+  "keywords": [
+    "json-pointer",
+    "jsonpath",
+    "json"
+  ],
+  "author": "javicuba11@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javi11/jpo-jpa/issues"
+  },
+  "homepage": "https://github.com/javi11/jpo-jpa#readme",
+  "devDependencies": {
+    "@types/tap": "^15.0.1",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.3",
+    "husky": "^6.0.0",
+    "json-pointer": "^0.6.1",
+    "lint-staged": "^11.0.0",
+    "prettier": "2.3.0",
+    "tap": "^15.0.9",
+    "jsonpath": "^1.1.1"
+  },
+  "lint-staged": {
+    "**/*": "eslint ."
+  }
+}
