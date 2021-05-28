@@ -1,13 +1,17 @@
 {
   "name": "jpo-jpa",
-  "version": "0.0.1",
-  "description": "Json pointer to json path",
+  "version": "0.1.0",
+  "description": "JSON pointer to JSON path",
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && tap",
     "lint": "eslint .",
     "postinstall": "husky install"
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/javi11/jpo-jpa.git"
@@ -38,5 +42,8 @@
   },
   "lint-staged": {
     "**/*": "eslint ."
+  },
+  "engines": {
+    "node": ">=10"
   }
 }
