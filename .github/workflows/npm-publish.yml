@@ -4,12 +4,9 @@
 name: Node.js Package
 
 on:
-  create:
-    tags:
-      - v*
   push:
     tags:
-      - v*
+      - "v*"
 jobs:
   build:
     runs-on: ubuntu-latest
