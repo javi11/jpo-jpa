@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run lint && tap",
     "lint": "eslint .",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "files": [
     "index.js",
